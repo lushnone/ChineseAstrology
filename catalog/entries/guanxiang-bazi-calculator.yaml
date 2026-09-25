@@ -1,0 +1,26 @@
+id: guanxiang-bazi-calculator
+name: 观象八字 · 在线计算器
+type: webapp
+disciplines:
+  - bazi
+urls:
+  primary: https://www.ba-zi.ai/calculator
+pricing: freemium
+locales_supported:
+  - zh-CN
+  - en
+status: active
+last_verified: 2026-09-25
+features:
+  - 子平派排盘规则（页面说明节气换月、子时换日）
+  - 出生城市经度校正真太阳时
+  - 大运流年与运势图表展示
+  - 核心命盘免登录生成
+i18n:
+  zh-CN:
+    summary: 观象八字站点的免费排盘计算器，强调可核对四柱与大运时间轴。
+  en:
+    summary: Web BaZi calculator with optional city-based solar time correction.
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

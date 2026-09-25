@@ -1,0 +1,22 @@
+id: buyiju-bazi
+name: 卜易居 · 八字排盘
+type: webapp
+disciplines:
+  - bazi
+urls:
+  primary: https://pp.buyiju.com/
+pricing: free
+locales_supported:
+  - zh-CN
+status: active
+last_verified: 2026-09-25
+features:
+  - 在线四柱排盘
+  - 卜易居站群常见入门排盘入口
+i18n:
+  zh-CN:
+    summary: 卜易居旗下八字排盘页，国内搜索曝光较高的免费网页排盘之一。
+notes: 若主链变更，请在 PR 中更新 urls.primary。
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

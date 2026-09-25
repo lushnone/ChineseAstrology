@@ -1,0 +1,25 @@
+id: metabazi
+name: Meta BaZi
+type: webapp
+disciplines:
+  - bazi
+urls:
+  primary: https://www.metabazi.com/
+pricing: subscription
+locales_supported:
+  - en
+  - zh-CN
+status: active
+last_verified: 2026-09-25
+features:
+  - Web / iOS / Android（官网自述）
+  - 八字计算与 AI 分析
+  - 命盘可视化
+i18n:
+  zh-CN:
+    summary: 商业八字 AI 产品，官网提供多平台下载入口。
+  en:
+    summary: AI-assisted BaZi calculator available on web and mobile stores.
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

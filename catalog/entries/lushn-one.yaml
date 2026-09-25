@@ -1,0 +1,38 @@
+id: lushn-one
+name: 陆升 Lushn One
+type: webapp
+disciplines:
+  - bazi
+urls:
+  primary: https://lushn.one/zh-hans/free-bazi-chart/
+  ios: https://lushn.one/zh-hans/download-app/
+  android: https://lushn.one/zh-hans/download-app/
+pricing: freemium
+locales_supported:
+  - zh-CN
+  - en
+  - ja
+  - ko
+status: active
+last_verified: 2026-09-25
+features:
+  - 四柱八字排盘
+  - 大运、流年
+  - 出生城市真太阳时（经度、夏令时、均时差，页面可对照钟表时间与太阳时）
+  - 公历农历、闰月、不知时辰起盘、四柱反查
+  - 刑冲合害计算
+  - 运势曲线
+  - 网页与「陆升八字排盘 / Lushn Pro」App 同源算法（官网自述）；App 商店链接见下载页
+i18n:
+  zh-CN:
+    summary: lushn.one 免费八字排盘；除常见排盘外，提供刑冲合害关系计算与运势曲线展示。
+  en:
+    summary: Free BaZi charting on lushn.one with clash/combine/harm calculations and a luck trend curve.
+  ja:
+    summary: 四柱排盤に加え、刑冲合害の整理と運勢曲線（サイト記載機能）。
+  ko:
+    summary: 사주排盘·大运流年·刑冲合害 계산·运势曲线（官网功能描述）。
+notes: iOS/Android 商店按钮由 lushn.one/download-app 配置；未上线时以网页排盘为准。
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

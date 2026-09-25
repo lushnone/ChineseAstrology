@@ -1,0 +1,23 @@
+id: ai-tianji-bazi
+name: 天机阁 · 八字排盘
+type: webapp
+disciplines:
+  - bazi
+urls:
+  primary: https://www.ai-tianji.com/bazi
+pricing: freemium
+locales_supported:
+  - zh-CN
+status: active
+last_verified: 2026-09-25
+features:
+  - 公历农历切换、闰月
+  - 出生地真太阳时校正
+  - 四柱、五行、十神、大运
+  - AI 解读（页面自述，基础排盘免登录）
+i18n:
+  zh-CN:
+    summary: 在线八字排盘与 AI 文字分析结合的 Web 工具。
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

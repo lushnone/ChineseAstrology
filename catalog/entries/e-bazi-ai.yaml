@@ -1,0 +1,25 @@
+id: e-bazi-ai
+name: E-BaZi AI
+type: ios
+disciplines:
+  - bazi
+  - general
+urls:
+  primary: https://apps.apple.com/app/e-bazi-ai/id1363080916
+  ios: https://apps.apple.com/app/e-bazi-ai/id1363080916
+pricing: subscription
+locales_supported:
+  - en
+status: active
+last_verified: 2026-09-25
+features:
+  - 八字排盘（含多柱扩展，应用自述）
+  - 紫微、奇门、六壬等（同 App 其它术数模块）
+  - AI 报告、PDF 分享、iCloud 同步
+i18n:
+  zh-CN:
+    summary: iOS 综合玄学工具，八字为其中模块之一；订阅/点数制。
+notes: disciplines 含 general，因单 App 集成多种术数。
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

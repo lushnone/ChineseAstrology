@@ -1,0 +1,23 @@
+id: tianjiyao-bazi
+name: 天机爻 · 八字排盘
+type: webapp
+disciplines:
+  - bazi
+urls:
+  primary: https://tianjiyao.com/zh/bazi
+pricing: freemium
+locales_supported:
+  - zh-CN
+status: active
+last_verified: 2026-09-25
+features:
+  - 生辰四柱、藏干十神、大运流年
+  - 出生城市真太阳时、1986–1991 夏令时（页面自述）
+  - 立春换年、节气换月、早晚子时（页面自述）
+  - AI 命盘分析入口
+i18n:
+  zh-CN:
+    summary: 天机爻站内的八字排盘与 AI 解读入口。
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

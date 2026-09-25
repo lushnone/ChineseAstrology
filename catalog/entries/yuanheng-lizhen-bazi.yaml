@@ -1,0 +1,22 @@
+id: yuanheng-lizhen-bazi
+name: 元亨利贞网 · 八字排盘
+type: website
+disciplines:
+  - bazi
+urls:
+  primary: https://www.china95.net/paipan/bazi/
+pricing: free
+locales_supported:
+  - zh-CN
+status: active
+last_verified: 2026-09-25
+features:
+  - 四柱八字排盘
+  - 普通排盘与真太阳时排盘可选
+  - 公历生日输入
+i18n:
+  zh-CN:
+    summary: 元亨利贞论坛旗下在线四柱排盘页，界面简洁，长期被爱好者引用。
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

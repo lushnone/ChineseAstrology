@@ -1,0 +1,21 @@
+id: wenzhen-bazi-web
+name: 问真八字 · 在线排盘
+type: webapp
+disciplines:
+  - bazi
+urls:
+  primary: https://pcbz.iwzwh.com/
+pricing: unknown
+locales_supported:
+  - zh-CN
+status: active
+last_verified: 2026-09-25
+features:
+  - 网页版八字排盘
+  - 与问真八字 App 同品牌体系（iwzwh 域名）
+i18n:
+  zh-CN:
+    summary: 问真八字品牌的浏览器排盘页，便于未安装 App 时快速起盘。
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

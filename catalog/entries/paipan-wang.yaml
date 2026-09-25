@@ -1,0 +1,25 @@
+id: paipan-wang
+name: 排盘工具网（原信达利排盘网）
+type: webapp
+disciplines:
+  - bazi
+  - ziwei
+  - general
+urls:
+  primary: http://www.paipan.wang/
+pricing: free
+locales_supported:
+  - zh-CN
+status: active
+last_verified: 2026-09-25
+features:
+  - 四柱八字在线排盘
+  - 大运小运流年流月流日流时
+  - 紫微斗数排盘（同站）
+  - 电脑版与手机浏览器可用、免下载
+i18n:
+  zh-CN:
+    summary: 老牌在线排盘站，八字与紫微等功能集中，原信达利排盘网域名现指向本站。
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

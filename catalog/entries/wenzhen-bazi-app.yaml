@@ -1,0 +1,27 @@
+id: wenzhen-bazi-app
+name: 问真八字排盘
+type: android
+disciplines:
+  - bazi
+urls:
+  primary: https://app.xiaomi.com/details?id=com.wzwh.bzpaipan
+  android: https://app.xiaomi.com/details?id=com.wzwh.bzpaipan
+  ios: https://apps.apple.com/cn/app/id6753684715
+pricing: freemium
+locales_supported:
+  - zh-CN
+status: active
+last_verified: 2026-09-25
+features:
+  - 八字排盘
+  - 大运流年流月流日
+  - 八字反推
+  - 断事笔记、偏好设置（用户社区常见描述）
+  - 古籍检索、学堂内容（应用商店自述）
+i18n:
+  zh-CN:
+    summary: 国内使用量较大的八字排盘 App 之一；iOS 商店存在多个相似名称应用，以官方最新包为准。
+notes: Android 包名 com.wzwh.bzpaipan；各应用商店链接若有变动请更新。
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

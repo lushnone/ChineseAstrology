@@ -1,0 +1,24 @@
+id: jiebazi-beizhai
+name: 北斋先生 · 八字排盘
+type: webapp
+disciplines:
+  - bazi
+  - calendar
+urls:
+  primary: https://www.jiebazi.cn/
+pricing: free
+locales_supported:
+  - zh-CN
+status: active
+last_verified: 2026-09-25
+features:
+  - 公历排盘、农历排盘、八字反推
+  - 出生地省市、夏令时、真太阳时、晚子时规则可选
+  - 人元司令多种古籍选项
+  - 同站万年历、六爻、奇门、紫微等入口
+i18n:
+  zh-CN:
+    summary: 功能选项较全的网页排盘，适合需要细调历法参数的用户。
+changelog:
+  - date: 2026-09-25
+    note: 初始收录

@@ -1,0 +1,29 @@
+id: bazi-qlsoft-android
+name: BaZi（Q&L Soft）
+type: android
+disciplines:
+  - bazi
+urls:
+  primary: https://play.google.com/store/apps/details?id=com.qlsoft.app.bazi
+  android: https://play.google.com/store/apps/details?id=com.qlsoft.app.bazi
+pricing: free
+locales_supported:
+  - en
+  - zh-CN
+status: active
+last_verified: 2026-09-25
+features:
+  - 四柱排盘
+  - 大运流年
+  - 流年流月流日柱
+  - 十神参考、十二长生
+  - 档案备份恢复
+  - 简易通胜查日柱
+i18n:
+  zh-CN:
+    summary: 老牌 Android 八字排盘应用，偏工具向、英文界面为主。
+  en:
+    summary: Long-running Android Four Pillars charting tool with luck cycles and profile storage.
+changelog:
+  - date: 2026-09-25
+    note: 初始收录
