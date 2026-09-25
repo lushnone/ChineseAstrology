@@ -1,0 +1,26 @@
+# 复制为 {id}.yaml，删本注释。
+
+id: your-slug-here
+name: 产品对外名称
+type: webapp
+disciplines:
+  - bazi
+urls:
+  primary: https://example.com
+pricing: freemium
+locales_supported:
+  - zh-CN
+status: active
+last_verified: 2026-09-25
+affiliate: false
+features:
+  - 八字排盘
+  - 大运流年
+  - 可选真太阳时
+i18n:
+  zh-CN:
+    summary: 一句话：这个 App/站能做什么（不评价吉凶）。
+  en:
+    summary: One-line factual summary (optional).
+# scores: 整块可选，仓库不做排行榜
+changelog: []

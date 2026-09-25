@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ChineseAstrology/catalog/entry.schema.json",
+  "title": "CatalogEntry",
+  "type": "object",
+  "required": ["id", "name", "type", "disciplines", "urls", "status", "last_verified"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug; matches filename without .yaml"
+    },
+    "name": { "type": "string" },
+    "type": {
+      "type": "string",
+      "enum": ["website", "webapp", "ios", "android", "desktop", "api", "book", "course", "community"]
+    },
+    "disciplines": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["bazi", "ziwei", "qimen", "liuyao", "fengshui", "calendar", "general"]
+      },
+      "minItems": 1
+    },
+    "urls": {
+      "type": "object",
+      "required": ["primary"],
+      "properties": {
+        "primary": { "type": "string", "format": "uri" },
+        "ios": { "type": "string", "format": "uri" },
+        "android": { "type": "string", "format": "uri" },
+        "github": { "type": "string", "format": "uri" }
+      }
+    },
+    "pricing": {
+      "type": "string",
+      "enum": ["free", "freemium", "paid", "subscription", "unknown"]
+    },
+    "locales_supported": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["en", "zh-CN", "zh-TW", "ja", "ko"] }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "beta", "archived"]
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date"
+    },
+    "affiliate": { "type": "boolean", "default": false },
+    "features": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Objective feature list as shown on product pages (e.g. 八字排盘, true solar time toggle)"
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "ux": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "features": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "accuracy_claims": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "i18n": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "privacy": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "cost_value": { "type": "integer", "minimum": 1, "maximum": 5 }
+      },
+      "additionalProperties": false
+    },
+    "i18n": {
+      "type": "object",
+      "properties": {
+        "en": { "$ref": "#/$defs/localeBlock" },
+        "zh-CN": { "$ref": "#/$defs/localeBlock" },
+        "ja": { "$ref": "#/$defs/localeBlock" },
+        "ko": { "$ref": "#/$defs/localeBlock" }
+      }
+    },
+    "changelog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "note"],
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "notes": { "type": "string" }
+  },
+  "$defs": {
+    "localeBlock": {
+      "type": "object",
+      "properties": {
+        "summary": { "type": "string" },
+        "pros": { "type": "array", "items": { "type": "string" } },
+        "cons": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  },
+  "additionalProperties": false
+}
